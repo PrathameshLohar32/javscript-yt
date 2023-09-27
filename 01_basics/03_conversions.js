@@ -13,3 +13,18 @@ console.log(isloggedIN)
 let num= "34365";
 let convtoString = String(num);
 console.log(convtoString)
+
+// Basic math operators are same like other langs +,-,/,*,%,etc
+
+//let us see some confusing conversions
+let str="hello"
+let str1= " pkl"
+console.log(str+str1)
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+//if string is first then others will automatically converted to string
+//if string is at last then other operations execute first then at last converted to string
